@@ -1,0 +1,32 @@
+.body {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.wrapper{
+    display: flex;
+    border: 1px solid;
+    width: 500px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #babfff;
+    margin: auto;
+}
+.usd {
+    color: blue;
+    margin-top: 28px;
+}
+.som {
+    color: red;
+    margin-top: 28px;
+}
+input{
+    padding: 10px 20px;
+}
+label {
+    font-size: 20px;
+}
